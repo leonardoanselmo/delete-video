@@ -1,0 +1,63 @@
+body {
+  background: #141617;
+  color: white;
+  font-family: "Inter";
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+section {
+  width: 51.625rem;
+  border-radius: 1.18rem;
+  background: #222426;
+  display: flex;
+  gap: 2.25rem;
+  padding: 3.06rem;
+}
+
+img {
+  width: 2.875rem;
+  height: 2.875rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0 0 2.31rem;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 179.023%;
+  margin: 0;
+}
+
+.buttons {
+  display: flex;
+  margin-top: 4.81rem;
+  gap: 2.25rem;
+}
+
+a.cta {
+  display: inline-flex;
+  padding: 0.625rem 1.3125rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 0.4375rem;
+  background: #005fbf;
+  color: white;
+  text-decoration: none;
+
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 179.023%;
+}
+
+a.secondary-cta {
+  color: #fff;
+  font-size: 1.25rem;    
+  line-height: 179.023%;
+  align-self: center;  
+}
